@@ -1,14 +1,11 @@
 import 'dart:typed_data';
 
-import 'package:google_generative_ai/google_generative_ai.dart';
-// import 'package:firebase_vertexai/firebase_vertexai.dart';
-
+import 'package:firebase_vertexai/firebase_vertexai.dart';
 
 class ScavengerHuntClient {
   ScavengerHuntClient()
-      : _model = GenerativeModel(
+      : _model = FirebaseVertexAI.instance.generativeModel(
           model: 'gemini-pro-vision',
-          apiKey: 'AIzaSyCyu_FQY_WW-wrl1zNNU-kcumLK_TxXxsc',
         );
 
   final GenerativeModel _model;
