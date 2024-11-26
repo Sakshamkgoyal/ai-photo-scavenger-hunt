@@ -22,6 +22,8 @@ class ScavengerHuntRepository {
 
     try {
       final response = await _client.generateScavengerHuntItems(location);
+      ScavengerHuntRepositoryException('AI Response: $response');
+
 
       if (response == null) {
         throw const ScavengerHuntRepositoryException('Response is empty');

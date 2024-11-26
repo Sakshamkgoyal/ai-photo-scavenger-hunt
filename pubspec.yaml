@@ -13,6 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
+  google_generative_ai: ^0.4.6
   image_picker: ^1.0.7
   scavenger_hunt_repository:
     path: packages/scavenger_hunt_repository

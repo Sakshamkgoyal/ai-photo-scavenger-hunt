@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49634154974",
+    "project_id": "shapeapp-b3e6c",
+    "storage_bucket": "shapeapp-b3e6c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49634154974:android:a0ea13313d374536cce54f",
+        "android_client_info": {
+          "package_name": "com.example.ai_photo_scavenger_hunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-1PbyQQMlZcHhEJvSsOOWBGz8rp21L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
